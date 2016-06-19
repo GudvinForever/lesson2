@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Сайт о городах">
+    <meta name="keywords" content="города, люди, страны">
+    <title>Табличная вёрстка</title>
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css">
+    <link href="css/secondcss.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form action="#" method="post">
+    <table align="center" cellspacing="0" cellpadding="0" class="maintable">
+        <tr>
+            <td colspan="2" class="header">
+                <img src="img/header.png" alt="Header" height="75px" width="100%">
+            </td>
+        </tr>
+        <tr>
+            <td class="logo">
+                <img src="img/logo.png" alt="logo">
+            </td>
+            <td class="menu">
+                <div class="main">
+                <div class="field">
+                    <label for="n">Ваш логин</label>
+                    <input type="text" name="login" id="n" placeholder="Введите ваш логин">
+                </div>
+                <div class="field">
+                    <label for="ln">Ваш пароль</label>
+                    <input type="password" name="password" id="ln" placeholder="Введите ваш пароль">
+                </div>
+                <div class="field">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+                <div class="travell">
+                    <label for="traveling"> Любите ли вы путишествовать?</label>
+                        <input type="radio" name="travel" value="Yex" id="traveling">Yes
+                        <input type="radio" name="travel" value="No" id="traveling">No
+                </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="leftmenu">
+                <a class="menu2" href="#razdel1">Page 1</a><br><br>
+                <a class="menu2" href="#razdel2">Page 2</a><br><br>
+                <a class="menu2" href="#razdel3">Page 3</a><br><br>
+                <a class="menu2" href="#razdel4">Page 4</a><br><br>
+                <a class="menu2" href="#razdel5">Page 5</a><br><br>
+                <a title="Календарь" target="new"><img id="calendarOffnote" alt="Календарь на любой год"  style="border:none" src="http://www.offnote.net/calendar/informer/i.gif" width="100" height="100" /></a>
+                <script type="text/javascript">function calendarOffnote() {var Dt=new Date(),day=Dt.getDate(),month=Dt.getMonth()+1,year=Dt.getFullYear(),tz=day+'-'+month+'-'+year;window.document.getElementById("calendarOffnote").src="http://www.offnote.net/calendar/informer/?bg=a0&tz="+tz;}calendarOffnote ();</script>
+            </td>
+            <td class="workarea1">
+               <!-- <img src="img/pictown.jpg" alt="Town" style="width:300px; height=200px; float: right;">-->
+                <video width="900px" controls="controls" poster="video/duel.jpg" autoplay>
+                    <source src="video/top10.mp4" type='video/ogg; codecs="theora, vorbis"'>
+                </video>
+                <h1>10 самых любимых туристами городов мира</h1>
+                <img src="img/pictown.jpg" alt="Town" style="width:300px; height=200px; float: right;">
+                <p>Каждая страна и каждый город мира красив по-своему, из наиболее популярных у туристов городов мира
+                    каждый можно выделить отдельно: самые гламурные, спортивные «вкусные» и т.д. CNN представляет 10
+                    «самых самых лучших», список городов «best of» составлен на основе интернет опросов, мнений
+                    блоггеров и путешественников, в результате получился следующий рейтинг любимых городов мира:</p>
+                <p>10. Барселона, Испания
+
+                    Несмотря на солидный возраст, Барселону воспринимают, как город для молодежи. Здесь красиво, вкусно,
+                    интересно и весело круглые сутки. </p>
+                <p>9. Кейптаун, ЮАР
+
+                    В Кейптауне появилось новое чудо света – в прошлом году пик Table Mountain признали таким же
+                    природным чудом, как и Большой Каньон и Галапагосские острова. Также в 2011 TripAdvisor назвал
+                    Кейптаун лучшим турнаправлением в мире (“Top Destination in the World”), а National Geographic
+                    отметил местные пляжи. Город признают красивым, интересным и привлекательным не только обычные
+                    туристы, но и бизнес-путешественники. Кейптаун один из самых посещаемых туристами городов Африки.
+                    Уникальная природа, разнообразная кухня, вина, архитектура и погода, да и еще пингвины на пляже
+                    радуют туристов.</p>
+                <p>8. Монреаль, Канада
+
+                    Монреаль назвали культурной столицей Канады, также он имеет статус «города дизайна» от ЮНЕСКО, кроме
+                    того, он является одним из лучших для проживания городов мира. В среднем город посещают 7,5
+                    миллионов туристов. Помимо красивой архитектуры, культурных развлечений, кухни, разных фестивалей, в
+                    том числе и Международного Джаз фестиваля (28 июня-7 июля), Монреаль называют городом комиков и
+                    безусловно хоккея. Кстати очередной фестиваль смеха Just for Laughs пройдет с 12 по 29 июля.</p>
+                <p>7. Нью-Йорк, США <a name="razdel5"></a>
+
+                    Нью-Йорк сохраняет за собой третью позицию в мире по числу туристов. Центральный парк, Бродвей,
+                    Манхеттен и т.д. продолжают привлекать туристов со всего мира.</p>
+                <p>6. Париж, Франция <a name="razdel4"></a>
+
+                    На протяжении многих лет Париж остается одним из самых посещаемых городов мира. Город влюбленных,
+                    высокой кухни и моды, музеев и исторических достопримечательностей по-прежнему вызывает интерес и
+                    принимает ежегодно 15 миллионов гостей.</p>
+                <p>. Петра, Иордания
+
+                    Розовый город в жаркой Иордании, которому более 2 000 лет, привлекает туристов со всего мира,
+                    настолько, что его назвали одним из любимых. Безусловно Петра - это самая главная
+                    достопримечательность Иордании, которая интересна миллионам людей со всего мира. Город входит в
+                    число «чудес мира» ЮНЕСКО.</p>
+                <p>4. Сан-Франциско, США <a name="razdel3"></a>
+
+                    Самая интересная транспортная система в мире до сих пор привлекает туристов. Знаменитый мост Golden
+                    Gate Bridge в этом году отмечает 75-летие и все еще является одной из самых популярных
+                    достопримечательностей страны и не только. Сан-Франциско можно назвать и одним из любимых городов
+                    гурманов.</p>
+                <p>3. Сантьяго, Чили <a name="razdel2"></a>
+
+                    Сантьяго известен крупными карнавалами и фестивалями танго. Несмотря на погодные аномалии: смог или
+                    туман - город любят и посещают туристы. Жители Нью-Йорка назвали Сантьяго главным турнаправлением в
+                    прошлом году. Здесь весело, вкусно и безопасно, и еще можно покататься на лыжах в середине лета на
+                    качественном курорте и недорого.</p>
+                <p>2. Шанхай, Китай
+
+                    Быстрый, сумасшедший, незабываемый город, модный, торговый и финансовый хаб. На сегодняшний день это
+                    один из самых богатых городов Китая, в котором «кипит жизнь» круглые сутки.
+                </p>
+                <p>1. Токио, Япония <a name="razdel1"></a>
+
+                    В Токио туристов ослепляет иллюминация, количество неоновых вывесок, пожалуй, самое большое в мире.
+                    Так много всего надо посмотреть, но сложно увидеть все и сразу. Туристы приезжают насладиться
+                    красотой садов в сезон цветения сакуры, обязательно отведать настоящую японскую кухню и не только,
+                    здесь много ресторанов удостоенных звезд Мишлен. В обязательную туристическую программу входит
+                    посещение знаменитого рыбного рынка.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="workarea2">
+                <div class="main">
+                <div class="travell">
+                    <label for="cm">Введите комментарий</label>
+                    <textarea name="comment" id="cm" placeholder="Введите комментарий" rows="5";></textarea>
+                </div>
+                 <div class="travell">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+                </div>
+                <div class="main">
+                    <div class="city">
+                <label for="liketown">Выбери понравившийся тебе город</label>
+                <select multiple style="width: 160px"; size="5">
+                    <option name="likecity" value="Токио" id="liketown">Токио</option>
+                    <option name="likecity" value="Шанхай" id="liketown">Шанхай</option>
+                    <option name="likecity" value="Сантьяго" id="liketown">Сантьяго</option>
+                    <option name="likecity" value="Сан-Франциско" id="liketown">Сан-Франциско</option>
+                    <option name="likecity" value="Нью_Йорк" id="liketown">Нью_Йорк</option>
+                    <option name="likecity" value="Париж" id="liketown">Париж</option>
+                    <option name="likecity" value="Петра" id="liketown">Петра</option>
+                    <option name="likecity" value="Монреаль" id="liketown">Монреаль</option>
+                    <option name="likecity" value="Кейптаун" id="liketown">Кейптаун</option>
+                    <option name="likecity" value="Барселона" id="liketown">Барселона</option>
+                </select><br>
+                <input type="submit">
+                <input type="reset">
+                        </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">
+                Copyright &copy;<a href="https://sites.google.com/site/samyekrasivyeugolkimirak/desatka-samyh/10-samyh-krasivyh-stran-mira">О городах.com</a>
+            </td>
+        </tr>
+</body>
+</html>

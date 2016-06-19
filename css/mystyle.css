@@ -1,0 +1,97 @@
+table, tr, td
+{
+    /*border: 1px solid black;*/
+}
+body
+{
+    background-image: url("../img/fon2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+}
+.maintable
+{
+width: 1000px;
+}
+.header
+{
+    overflow: hidden;
+}
+.logo
+{
+    overflow: hidden;
+}
+.menu
+{
+    overflow: hidden;
+    vertical-align: middle;
+
+}
+.leftmenu
+{
+    overflow: hidden;
+    padding: 20px;
+    vertical-align: top;
+}
+.workarea1
+{
+    padding: 20px;
+    overflow: hidden;
+}
+.workarea2
+{
+    overflow: hidden;
+}
+.footer
+{
+    overflow: hidden;
+    text-align: center;
+}
+.menu2
+{
+    /*border: 1px solid black;*/
+    padding: 5px;
+    text-decoration: none;
+    color: darkblue;
+    font-family: "Footlight MT Light";
+    font-size: 24px;
+}
+.menu2:hover
+{
+    color: red;
+    background-color: gold;
+}
+.field
+{
+    clear:both;
+    text-align:right;
+    line-height:25px;
+}
+label
+{
+    float:left;
+    padding-right:10px;
+}
+.main
+{
+    float:left
+}
+#cm
+{
+    resize: none;
+}
+.travell
+{
+    clear:both;
+    text-align:right;
+    line-height:25px;
+    padding: 10px;
+}
+.city
+{
+    clear:both;
+    text-align:right;
+    line-height:25px;
+    padding: 10px;
+}
+
